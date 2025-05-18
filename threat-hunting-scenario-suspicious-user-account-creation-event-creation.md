@@ -3,8 +3,8 @@
 
 ## Steps the "Bad Actor" took Create Logs and IoCs:
 1. Opens a command prompt or PowerShell with elevated privileges.
-2. Runs net user hacker /add command to create a new user.
-3. Adds the user to the local Administrators group using net localgroup administrators hacker /add.
+2. Runs "net user hacker /add" command to create a new user.
+3. Adds the user to the local Administrators group using "net localgroup administrators hacker /add".
 
 ---
 
