@@ -22,8 +22,7 @@
 // Detect 'net user' and 'net localgroup' commands used for account creation or modification
 DeviceProcessEvents
 | where DeviceName == "huyt"
-| where FileName in ("cmd.exe", "powershell.exe")
-| where ProcessCommandLine has_any ("net user", "net localgroup")
+| where ProcessCommandLine has ("net.exe")
 | project Timestamp, DeviceName, AccountName, FileName, ProcessCommandLine
 | order by Timestamp desc
 ```
