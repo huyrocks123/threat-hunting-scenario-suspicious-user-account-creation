@@ -1,5 +1,5 @@
 # Threat Hunt Report: Suspicious User Account Creation
-- [Scenario Creation](https://github.com/huyrocks123/threat-hunting-scenario-task-scheduler/blob/main/threat-hunting-scenario-unauthorized-task-scheduler-persistence-event-creation.md)
+- [Scenario Creation](https://github.com/huyrocks123/threat-hunting-scenario-suspicious-user-account-creation/blob/main/threat-hunting-scenario-suspicious-user-account-creation-event-creation.md)
 
 ## Platforms and Languages Leveraged
 - Windows 10 Virtual Machines (Microsoft Azure)
