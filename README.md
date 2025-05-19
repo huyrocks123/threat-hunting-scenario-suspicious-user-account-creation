@@ -26,7 +26,6 @@ Identified execution of the command "net.exe" user hack /add run by user huy at 
 
 **Query used to locate event:**
 
-kql
 ```kql
 DeviceProcessEvents
 | where DeviceName == "huyt"
